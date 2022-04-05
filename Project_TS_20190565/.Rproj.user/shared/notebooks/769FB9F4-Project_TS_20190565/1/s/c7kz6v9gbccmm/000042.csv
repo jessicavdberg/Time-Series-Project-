@@ -1,0 +1,5 @@
+"0",""
+"0","plot_data <- obss %>% gather(name, data,-Date) %>% arrange(Date) %>% ggplot() + geom_line(aes(x =Date, y=data, color=name)) + facet_wrap(~name, scale=""free_y"") + ggthemes::scale_color_wsj() + labs(y = ""Data"", x = ""Date"", title = ""Observable Data Series"", subtitle= ""Quarterly changes from 1982 to 2019"", caption = ""Source: fred.stlouisfed.org"") + theme(legend.position=""non"")"
+"0",""
+"0",""
+"0","plot_data"

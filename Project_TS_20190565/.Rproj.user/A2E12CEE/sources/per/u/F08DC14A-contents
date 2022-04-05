@@ -1,0 +1,6 @@
+library(devtools)
+library(Texevier)
+dir <- "C:/Users/jesic/OneDrive/Documents/GitHub/inclusion" # Ideally choose an empty folder.
+template_name = "Write_Up"
+create_template(directory = dir, template_name = template_name, build_project = TRUE, open_project = TRUE)
+
