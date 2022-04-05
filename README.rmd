@@ -1,24 +1,4 @@
----
-output:
-  md_document:
-    variant: markdown_github
----
+This reports sets out to simulate, estimate, analyze and compare the Taylor rule, Constant Money Growth rule and Flexible Money Growth rule. The paper concludes that the flexible money growth rules preforms similarly to the Taylor rule during 1982- 2019. All code and analysis was done in Mathlab. 
 
-# Purpose
-
-Purpose of this work folder.
-
-Ideally store a minimum working example data set in data folder.
-
-Add binary files in bin, and closed R functions in code. Human Readable settings files (e.g. csv) should be placed in settings/
-
-
-```{r}
-
-rm(list = ls()) # Clean your environment:
-gc() # garbage collection - It can be useful to call gc after a large object has been removed, as this may prompt R to return memory to the operating system.
-library(tidyverse)
-list.files('code/', full.names = T, recursive = T) %>% .[grepl('.R', .)] %>% as.list() %>% walk(~source(.))
-```
-
+The final submission can be found in file "" under ".pdf"
 
