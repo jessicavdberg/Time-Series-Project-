@@ -1,4 +1,4 @@
 This reports sets out to simulate, estimate, analyze and compare the Taylor rule, Constant Money Growth rule and Flexible Money Growth rule. The paper concludes that the flexible money growth rules preforms similarly to the Taylor rule during 1982- 2019. All code and analysis was done in Mathlab. 
 
-The final submission can be found in file "" under ".pdf"
+The final submission can be found in file "Project_TS_20190565" under "Project_TS_20190565.pdf"
 
